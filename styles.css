@@ -147,21 +147,21 @@ tr:hover {
 #contact input[type="text"],
 #contact input[type="email"],
 #contact textarea {
-    padding: 10 px;
+    padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
 }
 
-#contact input [type="submit"] {
+#contact input[type="submit"] {
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0,3s ease;
+    transition: background-color 0.3s ease;
 }
 
 #contact input[type="submit"]:hover {
@@ -194,7 +194,7 @@ footer a:hover {
     }
 
     nav li {
-        margin: 10 px 0; 
+        margin: 10px 0; 
     }
 
     #projects {
