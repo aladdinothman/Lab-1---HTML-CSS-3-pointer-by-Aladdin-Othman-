@@ -93,6 +93,38 @@ article{
     margin-bottom: 15px;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th,td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
 /* My contact section */
 
 #contact {
@@ -135,6 +167,59 @@ article{
 #contact input[type="submit"]:hover {
     background-color: #45a049;
 }
+
+/* Footer */
+footer { 
+background-color: #333;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+footer a {
+color: white;
+text-decoration: none;
+margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsiv design changes the layout based on the users device */ 
+@media (max-width: 768px) {
+    nav ul { 
+        flex-direction:column;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 10 px 0; 
+    }
+
+    #projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    #about img {
+        width: 150px;
+    }
+
+header h1 {
+    font-size: 24px;
+  }
+}
+
+
+
 
 
 
